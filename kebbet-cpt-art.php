@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Kebbet plugins - Custom Post Type: Art
- * Plugin URI:
+ * Plugin URI: https://github.com/kebbet/kebbet-cpt-art
  * Description: Registers a Custom Post Type.
- * Version: 20210519.01
+ * Version: 20210519.02
  * Author: Erik Betshammar
  * Author URI: https://verkan.se
  *
