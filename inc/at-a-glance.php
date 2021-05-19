@@ -5,9 +5,9 @@
  * @package kebbet-cpt-art
  */
 
-namespace cpt\kebbet\art\at_a_glance;
+namespace kebbet\cpt\art\at_a_glance;
 
-use const cpt\kebbet\art\POSTTYPE;
+use const kebbet\cpt\art\POSTTYPE;
 
 /**
  * Adds post-type info to 'At a Glance'-dashboard widget.

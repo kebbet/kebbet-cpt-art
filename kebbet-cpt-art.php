@@ -10,7 +10,7 @@
  * @package kebbet-cpt-art
  */
 
-namespace cpt\kebbet\art;
+namespace kebbet\cpt\art;
 
 const POSTTYPE = 'art';
 const SLUG     = 'konst';
