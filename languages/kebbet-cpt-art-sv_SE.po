@@ -1,0 +1,279 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kebbet plugins - Custom Post Type: Art\n"
+"POT-Creation-Date: 2021-05-17 18:20+0200\n"
+"PO-Revision-Date: 2021-05-17 20:43+0200\n"
+"Last-Translator: Erik Betshammar <info@verkan.se>\n"
+"Language-Team: Erik Betshammar <info@verkan.se>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: kebbet-cpt-art.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/admin-columns.php:39
+msgid "Last modified"
+msgstr "Senast ändrat"
+
+#: inc/admin-columns.php:40 kebbet-cpt-art.php:74
+msgid "Featured image"
+msgstr "Utvald bild"
+
+#: inc/admin-columns.php:71
+msgid "No image is set."
+msgstr "Ingen bild har ställts in."
+
+#. translators: %s: counter of how many posts.
+#: inc/at-a-glance.php:34
+#, php-format
+msgid "%s art post"
+msgid_plural "%s art posts"
+msgstr[0] "%s konstinlägg"
+msgstr[1] "%s konstinlägg"
+
+#: kebbet-cpt-art.php:58
+msgctxt "Post Type General Name"
+msgid "Art"
+msgstr "Konst"
+
+#: kebbet-cpt-art.php:59
+msgctxt "Post Type Singular Name"
+msgid "Art"
+msgstr "Konst"
+
+#: kebbet-cpt-art.php:60
+msgid "Art"
+msgstr "Konst"
+
+#: kebbet-cpt-art.php:61
+msgid "Art-post"
+msgstr "Konstinlägg"
+
+#: kebbet-cpt-art.php:62
+msgid "Parent post:"
+msgstr "Överordnat inlägg:"
+
+#: kebbet-cpt-art.php:63
+msgid "All posts"
+msgstr "Alla inlägg"
+
+#: kebbet-cpt-art.php:64
+msgid "Add new"
+msgstr "Lägg till nytt"
+
+#: kebbet-cpt-art.php:65
+msgid "Add new post"
+msgstr "Lägg till nytt inlägg"
+
+#: kebbet-cpt-art.php:66
+msgid "New post"
+msgstr "Nytt inlägg"
+
+#: kebbet-cpt-art.php:67
+msgid "Edit post"
+msgstr "Redigera inlägg"
+
+#: kebbet-cpt-art.php:68
+msgid "Update post"
+msgstr "Uppdatera inlägg"
+
+#: kebbet-cpt-art.php:69
+msgid "View post"
+msgstr "Visa inlägg"
+
+#: kebbet-cpt-art.php:70
+msgid "View posts"
+msgstr "Visa inlägg"
+
+#: kebbet-cpt-art.php:71
+msgid "Search posts"
+msgstr "Sök inlägg"
+
+#: kebbet-cpt-art.php:72
+msgid "Not found"
+msgstr "Hittade inga inlägg"
+
+#: kebbet-cpt-art.php:73
+msgid "No posts found in Trash"
+msgstr "Inga inlägg hittades i papperskorgen"
+
+#: kebbet-cpt-art.php:75
+msgid "Set featured image"
+msgstr "Ange utvald bild"
+
+#: kebbet-cpt-art.php:76
+msgid "Remove featured image"
+msgstr "Ta bort utvald bild"
+
+#: kebbet-cpt-art.php:77
+msgid "Use as featured image"
+msgstr "Använd som utvald bild"
+
+#: kebbet-cpt-art.php:78
+msgid "Insert into item"
+msgstr "Infoga till inlägg"
+
+#: kebbet-cpt-art.php:79
+msgid "Uploaded to this post"
+msgstr "Uppladdad till detta inlägg"
+
+#: kebbet-cpt-art.php:80
+msgid "Items list"
+msgstr "Objektlista"
+
+#: kebbet-cpt-art.php:81
+msgid "Items list navigation"
+msgstr "Navigering för objektlista"
+
+#: kebbet-cpt-art.php:82
+msgid "Filter items list"
+msgstr "Filtrera objektlista"
+
+#: kebbet-cpt-art.php:83
+msgid "Art-posts archive"
+msgstr "Arkiv för konstinlägg"
+
+#: kebbet-cpt-art.php:84
+msgid "Art-post attributes"
+msgstr "Attribut för konstinlägg"
+
+#: kebbet-cpt-art.php:85
+msgid "Post published"
+msgstr "Inlägget publicerat"
+
+#: kebbet-cpt-art.php:86
+msgid "Post published privately"
+msgstr "Inlägget publicerades privat"
+
+#: kebbet-cpt-art.php:87
+msgid "Post reverted to Draft"
+msgstr "Inlägget återställdes till utkast"
+
+#: kebbet-cpt-art.php:88
+msgid "Post scheduled"
+msgstr "Inlägget schemalagt"
+
+#: kebbet-cpt-art.php:89
+msgid "Post updated"
+msgstr "Inlägget uppdaterades"
+
+#: kebbet-cpt-art.php:114
+msgid "Art post type"
+msgstr "Konstinläggstyp"
+
+#: kebbet-cpt-art.php:115
+msgid "Custom post type for Art"
+msgstr "Anpassad inläggstyp för konst"
+
+#: kebbet-cpt-art.php:177 kebbet-cpt-art.php:180
+msgid "Post updated."
+msgstr "Inlägget uppdaterades."
+
+#: kebbet-cpt-art.php:178
+msgid "Custom field updated."
+msgstr "Anpassat fält uppdaterat."
+
+#: kebbet-cpt-art.php:179
+msgid "Custom field deleted."
+msgstr "Anpassat fält borttaget."
+
+#. translators: %s: date and time of the revision
+#: kebbet-cpt-art.php:182
+#, php-format
+msgid "Post restored to revision from %s"
+msgstr "Inlägget har återställts till version från %s"
+
+#: kebbet-cpt-art.php:183
+msgid "Post published."
+msgstr "Inlägget publicerat."
+
+#: kebbet-cpt-art.php:184
+msgid "Post saved."
+msgstr "Inlägget sparat."
+
+#: kebbet-cpt-art.php:185
+msgid "Post submitted."
+msgstr "Inlägget inlagt."
+
+#. translators: %1$s: date and time of the scheduled post
+#: kebbet-cpt-art.php:188
+#, php-format
+msgid "Post scheduled for: <strong>%1$s</strong>."
+msgstr "Inlägget är schemalagt till: <strong>%1$s</strong>."
+
+#: kebbet-cpt-art.php:189
+msgid "M j, Y @ G:i"
+msgstr "Y M D @ H:i"
+
+#: kebbet-cpt-art.php:191
+msgid "Post draft updated."
+msgstr "Utkast uppdaterades."
+
+#: kebbet-cpt-art.php:199
+msgid "View Post"
+msgstr "Visa inlägg"
+
+#: kebbet-cpt-art.php:205
+msgid "Preview Post"
+msgstr "Förhandsgranska inlägg"
+
+#. translators: %$1s: singular of posts, %$2s: pluralis of posts.
+#: kebbet-cpt-art.php:231
+msgid "%$1s post updated."
+msgid_plural "%$2s posts updated."
+msgstr[0] "%$1s inlägg uppdaterat."
+msgstr[1] "%$2s inlägg uppdaterades."
+
+#. translators: %$1s: singular of posts, %$2s: pluralis of posts.
+#: kebbet-cpt-art.php:233
+msgid "%$1s post not updated, somebody is editing it."
+msgid_plural "%$2s posts not updated, somebody is editing them."
+msgstr[0] "%$1s inlägg uppdaterades inte, någon redigerar det."
+msgstr[1] "%$2s inlägg uppdaterades inte, någon redigerar dem."
+
+#. translators: %$1s: singular of posts, %$2s: pluralis of posts.
+#: kebbet-cpt-art.php:235
+msgid "%$1s post permanently deleted."
+msgid_plural "%$2s posts permanently deleted."
+msgstr[0] "%$1s inlägg togs bort permanent."
+msgstr[1] "%$2s inlägg togs bort permanent."
+
+#. translators: %$1s: singular of posts, %$2s: pluralis of posts.
+#: kebbet-cpt-art.php:237
+msgid "%$1s post moved to the Trash."
+msgid_plural "%$2s posts moved to the Trash."
+msgstr[0] "%$1s inlägg flyttades till papperskorgen."
+msgstr[1] "%$2s inlägg flyttades till papperskorgen."
+
+#. translators: %$1s: singular of posts, %$2s: pluralis of posts.
+#: kebbet-cpt-art.php:239
+msgid "%$1s post restored from the Trash."
+msgid_plural "%$2s posts restored from the Trash."
+msgstr[0] "%$1s inlägg återställdes från papperskorgen."
+msgstr[1] "%$2s inlägg återställdes från papperskorgen."
+
+#. Plugin Name of the plugin/theme
+msgid "Kebbet plugins - Custom Post Type: Art"
+msgstr "Kebbet plugins - Anpassad inläggstyp: Konst"
+
+#. Description of the plugin/theme
+msgid "Registers a Custom Post Type."
+msgstr "Registrerar en anpassad inläggstyp."
+
+#. Author of the plugin/theme
+msgid "Erik Betshammar"
+msgstr "Erik Betshammar"
+
+#. Author URI of the plugin/theme
+msgid "https://verkan.se"
+msgstr "https://verkan.se"
