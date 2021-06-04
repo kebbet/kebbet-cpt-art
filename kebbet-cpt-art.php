@@ -153,7 +153,7 @@ function add_custom_capabilities() {
 	// Gets the administrator role
 	$admins = get_role( 'administrator' );
 
-	// Add custom capavilities.
+	// Add custom capabilities.
 	$admins->add_cap( 'edit_' . POSTTYPE );
 	$admins->add_cap( 'edit_' . POSTTYPE .'s' );
 	$admins->add_cap( 'edit_others_' . POSTTYPE .'s' );
@@ -235,15 +235,15 @@ add_filter( 'post_updated_messages', __NAMESPACE__ . '\post_updated_messages' );
 function bulk_post_updated_messages( $bulk_messages, $bulk_counts ) {
 
 	$bulk_messages[ POSTTYPE ] = array(
-		/* translators: %$1s: singular of posts, %$2s: pluralis of posts.  */
+		/* translators: %$1s: singular of posts, %$2s: plural of posts.  */
 		'updated'   => _n( '%$1s post updated.', '%$2s posts updated.', $bulk_counts['updated'], 'kebbet-cpt-art' ),
-		/* translators: %$1s: singular of posts, %$2s: pluralis of posts.  */
+		/* translators: %$1s: singular of posts, %$2s: plural of posts.  */
 		'locked'    => _n( '%$1s post not updated, somebody is editing it.', '%$2s posts not updated, somebody is editing them.', $bulk_counts['locked'], 'kebbet-cpt-art' ),
-		/* translators: %$1s: singular of posts, %$2s: pluralis of posts.  */
+		/* translators: %$1s: singular of posts, %$2s: plural of posts.  */
 		'deleted'   => _n( '%$1s post permanently deleted.', '%$2s posts permanently deleted.', $bulk_counts['deleted'], 'kebbet-cpt-art' ),
-		/* translators: %$1s: singular of posts, %$2s: pluralis of posts.  */
+		/* translators: %$1s: singular of posts, %$2s: plural of posts.  */
 		'trashed'   => _n( '%$1s post moved to the Trash.', '%$2s posts moved to the Trash.', $bulk_counts['trashed'], 'kebbet-cpt-art' ),
-		/* translators: %$1s: singular of posts, %$2s: pluralis of posts.  */
+		/* translators: %$1s: singular of posts, %$2s: plural of posts.  */
 		'untrashed' => _n( '%$1s post restored from the Trash.', '%$2s posts restored from the Trash.', $bulk_counts['untrashed'], 'kebbet-cpt-art' ),
 	);
 
@@ -258,6 +258,6 @@ add_filter( 'bulk_post_updated_messages', __NAMESPACE__ . '\bulk_post_updated_me
 require_once plugin_dir_path( __FILE__ ) . 'inc/at-a-glance.php';
 
 /**
- * Adds and modyfies the admin columns for the post type.
+ * Adds and modifies the admin columns for the post type.
  */
 require_once plugin_dir_path( __FILE__ ) . 'inc/admin-columns.php';

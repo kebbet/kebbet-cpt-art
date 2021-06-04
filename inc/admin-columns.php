@@ -1,6 +1,6 @@
 <?php
 /**
- * Adds and modyfies the admin columns for the post type.
+ * Adds and modifies the admin columns for the post type.
  *
  * @package kebbet-cpt-art
  */
