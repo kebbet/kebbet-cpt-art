@@ -95,6 +95,10 @@ function register() {
 		'item_reverted_to_draft'   => __( 'Post reverted to Draft', 'kebbet-cpt-art' ),
 		'item_scheduled'           => __( 'Post scheduled', 'kebbet-cpt-art' ),
 		'item_updated'             => __( 'Post updated', 'kebbet-cpt-art' ),
+		// 5.7 + 5.8
+		'filter_by_date'           => __( 'Filter posts by date', 'kebbet-cpt-art' ),
+		'item_link'                => __( 'Art post link', 'kebbet-cpt-art' ),
+		'item_link_description'    => __( 'A link to an art post', 'kebbet-cpt-art' ),
 	);
 	$supports_args     = array(
 		'author',
