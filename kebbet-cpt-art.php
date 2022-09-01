@@ -59,7 +59,7 @@ register_activation_hook( __FILE__, __NAMESPACE__ . '\rewrite_flush' );
  * Load plugin textdomain.
  */
 function load_textdomain() {
-	load_plugin_textdomain( 'kebbet-cpt-art', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+	load_plugin_textdomain( 'kebbet-cpt-art', false, dirname( plugin_basename( __FILE__ ) ) . '/assets/languages' );
 }
 
 /**
@@ -162,7 +162,7 @@ function enqueue_scripts( $page ) {
 		'index.php',
 	);
 	if ( in_array( $page, $assets_pages, true ) ) {
-		wp_enqueue_style( POSTTYPE . '_scripts', plugin_dir_url( __FILE__ ) . 'assets/style.css', array(), '1.2.1' );
+		wp_enqueue_style( POSTTYPE . '_scripts', plugin_dir_url( __FILE__ ) . 'assets/css/style.css', array(), '1.2.1' );
 	}
 }
 
