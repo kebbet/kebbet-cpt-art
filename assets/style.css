@@ -1,0 +1,4 @@
+#dashboard_right_now li.art-count span::before,
+#dashboard_right_now li.art-count a::before {
+	content: "\f322";
+}
